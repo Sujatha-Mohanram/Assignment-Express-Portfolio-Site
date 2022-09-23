@@ -1,0 +1,75 @@
+<!--
+Student Number : 301152761
+Student Name: Sujatha Mohanram
+Assignment : 1
+-->
+<!DOCTYPE html>
+<html>
+  <%- include('partials/header.ejs') %>
+  <body>
+    <!--main navigation-->
+   <%- include('partials/main-nav.ejs') %>
+   <!--main navigation end-->
+   <!--Main Content-->
+   <center>
+    <div><h1></h1></div>
+   <div class="col-md-6 align-items-center bgcolor-pink">
+        <h1 class="logotext">Contact</h1>
+    </div>
+    <div class="card-body d-flex flex-column col-md-10 align-items-center ">
+      <div class="card-body d-flex flex-column col-md-4 align-items-center bgcolor-pink">
+        <p><h4 class="logotext">Contact Me </h4></p>
+        <p class="mb-2"> <i class="fa-solid fa-square-envelope"></i> Email : mohanramsujatha@yahoo.co.uk</p>
+        <p> <i class="fa-solid fa-phone"></i> Phone : 647 532 2977</p>
+      </div>
+      <div><p></p></div>
+    </div>
+    <div class="card-body d-flex flex-column col-md-6 align-items-center">
+        <div class="card-body d-flex flex-column col-md-8 align-items-center bgcolor-pink">
+           <p> <h4 class="logotext">Contact Me Form</h4> </p>
+           <form name="contact" method="POST" action="/contact">
+            <table>
+                <tr>
+                    <td><p>First Name</p></td>
+                    <td width="15"></td>
+                    <td><p><input type="text" name="fname" ></p></td>
+                </tr>
+                <tr>
+                    <td><p>Last Name</p></td>
+                    <td width="15"></td>
+                    <td><p><input type="text" name="lname" ></p></td>
+                </tr>
+                <tr>
+                    <td><p>Contact Number </p></td>
+                    <td width="15"></td>
+                    <td><p><input type="text" name="phone" ></p></td>
+                </tr>
+                <tr>
+                  <td><p>Email  </p></td>
+                  <td width="15"></td>
+                  <td><p><input type="text" name="email" ></p></td>
+              </tr>
+              <tr>
+                <td><p>Message </p></td>
+                <td width="15"></td>
+                <td><p><textarea name="message" rows="2" cols="25"></textarea></p></td>
+            </tr>
+                <tr>
+                <td colspan="3" align="center">
+                    <p><input type="submit" value="Save" class="logotext"></p>
+                </td>
+                </tr>
+            </table>
+           </form>   
+           </div>
+    </div>
+    </center>
+    <!--Main Content end-->
+    <!--footer-->
+    <%- include('partials/footer.ejs') %>
+    <!--footer end-->
+    <!--scripts-->
+    <%- include('partials/scripts.ejs') %>
+    <!--scripts end-->
+  </body>
+</html>

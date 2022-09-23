@@ -1,0 +1,25 @@
+<!--
+Student Number : 301152761
+Student Name: Sujatha Mohanram
+Assignment : 1
+-->
+<!DOCTYPE html>
+<html>
+  <%- include('partials/header.ejs') %>
+  <body>
+    <!--main navigation-->
+   <%- include('partials/main-nav.ejs') %>
+   <!--main navigation end-->
+   <!--Main Content-->
+   <h1><%= message %></h1>
+    <h2><%= error.status %></h2>
+    <pre><%= error.stack %></pre>
+    <!--Main Content end-->
+    <!--footer-->
+    <%- include('partials/footer.ejs') %>
+    <!--footer end-->
+    <!--scripts-->
+    <%- include('partials/scripts.ejs') %>
+    <!--scripts end-->
+  </body>
+</html>

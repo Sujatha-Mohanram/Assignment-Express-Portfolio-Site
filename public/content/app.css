@@ -1,0 +1,25 @@
+/* custom style come here*/
+nav {
+    background-color: pink;
+ } 
+ body{
+    background-color: #FCE4EC;
+ }
+.logotext{
+    font-family: "Cursive";
+    font-style: italic;
+    color:#b8860b;
+    font-display: #b8860b;
+}
+.bgcolor-pink{
+    background-color: pink;
+}
+bgcolor-lavender{
+    background-color: #f1a7fe;
+}
+p{
+    font-family: "Cursive";
+    font-style: italic;
+    color:darkmagenta;
+    font-size: large;
+}
