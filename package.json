@@ -1,9 +1,13 @@
 {
-  "name": "assignment-express-portfolio-site",
-  "version": "0.0.0",
+  "name": "express-portfolio-229-fall2022",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^16.0.0",
+    "npm": "^8.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.0",
@@ -14,7 +18,20 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jquery": "^3.6.1",
-     "morgan": "~1.9.1",
+    "morgan": "~1.9.1",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "assignment-229-1",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sujatha-Mohanram/Assignment-Express-Portfolio-Site.git"
+  },
+  "author": "Sujatha Mohanram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sujatha-Mohanram/Assignment-Express-Portfolio-Site/issues"
+  },
+  "homepage": "https://github.com/Sujatha-Mohanram/Assignment-Express-Portfolio-Site#readme"
 }
